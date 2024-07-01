@@ -1,6 +1,4 @@
-import React from 'react';
-
-const LoadingDots = () => {
+function LoadingDots() {
   return (
     <div className="flex space-x-1">
       <div className="dot bg-gray-200 w-2.5 h-2.5 rounded-full"></div>

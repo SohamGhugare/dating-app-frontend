@@ -7,7 +7,7 @@ import info from "@/public/info.svg"
 import send from "@/public/send.svg"
 import LoadingDots from './LoadingDots';
 
-const MobileChat = () => {
+function MobileChat() {
   return (
     <div className="sm:hidden flex flex-col h-screen bg-[#F9ECDA]">
       <div className="flex items-center justify-between p-4 border-b border-gray-200 bg-white">
@@ -34,7 +34,7 @@ const MobileChat = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center p-4 border-t border-gray-200">
+      <div className="flex items-center p-4">
         <input
           type="text"
           className="flex-grow p-2 mr-2 border rounded-full"
